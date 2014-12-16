@@ -35,10 +35,22 @@ class FeedParser
       end
     end
 
+    def categories
+      @categories = case @type
+      when :rss
+        @feed.xpath(Dsl[@type][:categories]).map{|cat| cat.text}
+      when :atom
+        @feed.xpath(Dsl[@type][:categories]).map{|cat| cat.attribute("term").value}
+      else
+        nil
+      end
+    end
+
     def as_json
       {
         :title => title,
         :url => url,
+        :categories => categories,
         :items => items.map(&:as_json)
       }
     end

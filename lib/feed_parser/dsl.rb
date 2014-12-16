@@ -7,6 +7,7 @@ class FeedParser
       {
         :title => "/rss/channel/title",
         :url => "/rss/channel/link",
+        :categories => "/rss/channel/category",
         :item => "/rss/channel/item",
         :item_guid => "guid",
         :item_link => "link",
@@ -23,6 +24,7 @@ class FeedParser
         :title => "/feed/title",
         :url => "/feed/link[@rel='self']",
         :alternate_url => "/feed/link[@rel='alternate']",
+        :categories => "/feed/category",
         :item => "/feed/entry",
         :item_guid => "id",
         :item_link => "link",

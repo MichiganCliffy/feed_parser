@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?>
+<?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:gd="http://schemas.google.com/g/2005" xmlns:georss="http://www.georss.org/georss" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+  <id>tag:blogger.com,1999:blog-14935203</id>
+  <updated>2014-11-16T20:23:58.198-08:00</updated>
+  <category term="Family"/>
+  <category term="Tommy"/>
+  <category term="Ross"/>
+  <title type="text">The Clifford Corner =&gt; The Cliffords Little Space on the Web</title>
+  <subtitle type="html">An archive of my mindless ramblings...</subtitle>
+  <link href="http://blog.cliffordcorner.com/feeds/posts/default" rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml"/>
+  <link href="http://www.blogger.com/feeds/14935203/posts/default" rel="self" type="application/atom+xml"/>
+  <link href="http://blog.cliffordcorner.com/" rel="alternate" type="text/html"/>
+  <link href="http://pubsubhubbub.appspot.com/" rel="hub"/>
+  <link href="http://www.blogger.com/feeds/14935203/posts/default?start-index=26&amp;max-results=25" rel="next" type="application/atom+xml"/>
+  <author>
+    <name>MichiganCliffy</name>
+    <uri>http://www.blogger.com/profile/14574088166037690687</uri>
+    <email>noreply@blogger.com</email>
+    <gd:image height="16" rel="http://schemas.google.com/g/2005#thumbnail" src="http://img2.blogblog.com/img/b16-rounded.gif" width="16"/>
+  </author>
+  <generator uri="http://www.blogger.com" version="7.00">Blogger</generator>
+  <openSearch:totalResults>77</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:blogger.com,1999:blog-14935203.post-4928243404460856090</id>
+    <published>2014-11-16T20:11:00.000-08:00</published>
+    <updated>2014-11-16T20:14:33.445-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="2014"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Birthday"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="Family"/>
+    <title type="text">40?!?!?</title>
+    <content type="html">test test test</content>
+    <link href="http://www.blogger.com/comment.g?blogID=14935203&amp;postID=4928243404460856090&amp;isPopup=true" rel="replies" title="0 Comments" type="text/html"/>
+    <link href="http://www.blogger.com/feeds/14935203/posts/default/4928243404460856090" rel="edit" type="application/atom+xml"/>
+    <link href="http://www.blogger.com/feeds/14935203/posts/default/4928243404460856090" rel="self" type="application/atom+xml"/>
+    <link href="http://blog.cliffordcorner.com/2014/11/40.html" rel="alternate" title="40?!?!?" type="text/html"/>
+    <author>
+      <name>MichiganCliffy</name>
+      <uri>http://www.blogger.com/profile/14574088166037690687</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image height="16" rel="http://schemas.google.com/g/2005#thumbnail" src="http://img2.blogblog.com/img/b16-rounded.gif" width="16"/>
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+ </feed>

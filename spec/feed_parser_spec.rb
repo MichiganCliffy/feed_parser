@@ -198,6 +198,23 @@ describe FeedParser do
           :url => "http://techcrunch.com",
           # items: [] # <- fill in if you want to
         },
+        'blogger.rss.xml' => {
+          :title => "The Clifford Corner => The Cliffords Little Space on the Web",
+          :url => "http://blog.cliffordcorner.com/",
+          :categories => ["Family", "Tommy", "Ross"],
+          :items => [
+            {
+              :guid => "tag:blogger.com,1999:blog-14935203.post-4928243404460856090",
+              :link => "http://blog.cliffordcorner.com/2014/11/40.html",
+              :title => "40?!?!?",
+              :published => DateTime.parse("November 17, 2014 04:11:00 GMT"),
+              :categories => ["2014", "Birthday", "Family"],
+              :author => "",
+              :description => "test test test",
+              :content => ""
+            }
+          ]
+        },
       }.each do |rss_fixture, test_cases|
         it "should parse #{rss_fixture}" do
           feed = FeedParser::Feed.new(feed_xml(rss_fixture))
@@ -262,6 +279,23 @@ describe FeedParser do
 </div>'
               }
             ]
+        },
+        'blogger.atom.xml' => {
+          :title => "The Clifford Corner => The Cliffords Little Space on the Web",
+          :url => "http://www.blogger.com/feeds/14935203/posts/default",
+          :categories => ["Family", "Tommy", "Ross"],
+          :items => [
+            {
+              :guid => "tag:blogger.com,1999:blog-14935203.post-4928243404460856090",
+              :link => "http://www.blogger.com/comment.g?blogID=14935203&postID=4928243404460856090&isPopup=true",
+              :title => "40?!?!?",
+              :published => DateTime.parse("November 17, 2014 04:11:00 GMT"),
+              :categories => ["2014", "Birthday", "Family"],
+              :author => "MichiganCliffy",
+              :description => "",
+              :content => "test test test"
+            }
+          ]
         }
       }.each do |atom_fixture, test_cases|
         it "should parse #{atom_fixture}" do
