@@ -7,6 +7,15 @@ class NotSaneSanitizer
   end
 end
 
+RSpec.configure do |config|
+  config.expect_with :rspec do |c|
+    c.syntax = [:should, :expect]
+  end
+  config.mock_with :rspec do |c|
+    c.syntax = [:should, :expect]
+  end
+end
+
 describe FeedParser do
   def feed_xml(filename = 'nodeta.rss.xml')
     File.read(File.join(File.dirname(__FILE__), 'fixtures', filename))
